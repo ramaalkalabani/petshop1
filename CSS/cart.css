@@ -1,0 +1,236 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family:'Times New Roman', Times, serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+header {
+  margin-bottom: 30px;
+ 
+}
+
+nav {
+  display: flex;
+ justify-content: space-between;
+  padding: 10px ;
+  background-color: #333;
+  gap: 50px;
+}
+
+
+nav img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+ 
+  
+}
+
+.leftnav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: flex-end;
+
+}
+
+.leftnav a {
+  text-decoration: none;
+  color: #f8d7da;
+  font-weight: bold;
+  font-size: 130%;
+
+}
+
+
+.rightnav {
+  display: flex;
+  align-items: center;
+  gap: 15px; 
+  
+}
+
+nav .rightnav a {
+  text-decoration: none;
+  color: #f8d7da;
+  font-size: 130%;
+  padding: 5px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+
+
+
+.rightnav input {
+  padding: 5px;
+  border: 1px solid #ccc;
+ 
+}
+
+.rightnav button {
+  background-color: #333;
+  color: #fff;
+  padding: 3px;
+  
+}
+table {
+    width: 70%;
+    margin: 20px 220px;
+    background-color: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    border: none;
+
+   
+}
+
+table th, table td {
+    padding: 17px;
+    text-align:center;
+    font-size: 110%;
+}
+
+table th {
+    background-color: #f8d7da;
+    color: #333;
+    font-weight: bold;
+}
+
+table td img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+table td button[name="updateorder"] {
+  background-color:#333; 
+  color: white;
+  border-radius: 3px;
+  padding: 6px 4px;
+  font-size: 90%;
+  font-weight: bold;
+  border: none;
+}
+
+
+table td button.btn-danger {
+  background-color:#333; 
+  color: white;
+  border-radius: 3px;
+  padding: 6px 4px;
+
+  font-size: 90%;
+  font-weight: bold;
+  border: none;
+}
+
+table td button.btn-danger a {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+#cartform {
+    width: 70%;
+    margin: 20px 220px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction:column;
+    gap: 15px;
+}
+
+#cartform label {
+    font-size: 120%;
+    font-weight: bold;
+    color: #333;
+}
+
+#cartform input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 100%;
+}
+
+#cartform p {
+    font-size: 120%;
+    margin: 5px ;
+    color: #333;
+}
+
+#cartform button {
+    padding: 12px;
+    background-color:  #f8d7da;;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 120%;
+    font-weight: bold;
+   
+}
+
+  
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width:100%;
+  }
+  
+  footer h2 {
+    font-size: 200%;
+    color: #f8d7da;
+    font-weight: bold;
+
+
+}
+  
+   footer p {
+    font-size: 120%;
+   
+  }
+  
+  footer .loc {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  
+
+  footer .email {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+
+  footer .number {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+
+  footer i {
+    margin: 5px;
+    font-size: 130%;
+  }
+  
+  footer i:hover {
+    color: #f8d7da;
+  }
+  
+
+
+  

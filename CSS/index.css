@@ -1,0 +1,347 @@
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  header {
+    margin-bottom: 30px;
+   
+  }
+
+  nav {
+    display: flex;
+   justify-content: space-between;
+    padding: 10px ;
+    background-color: #333;
+    gap: 50px;
+  }
+
+  
+  nav img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+   
+    
+  }
+  
+  .leftnav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: flex-end;
+  
+  }
+  
+  .leftnav a {
+    text-decoration: none;
+    color: #f8d7da;
+    font-weight: bold;
+    font-size: 130%;
+
+  }
+  
+
+  .rightnav {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+    
+  }
+  
+  .rightnav a {
+    text-decoration: none;
+    color: #f8d7da;
+    font-size: 130%;
+  }
+  
+  
+
+  .rightnav input {
+    padding: 5px;
+    border: 1px solid #ccc;
+   
+  }
+  
+  .rightnav button {
+    background-color: #333;
+    color: #fff;
+    padding: 3px;
+    
+  }
+  
+  #upperbod {
+    text-align: center;
+    padding: 30px;
+   
+  }
+  
+  #upperbod p {
+    font-size: 200%;
+    font-weight: bold;
+    margin-top: 50px;
+  }
+  
+  #upperbod img {
+    width: 100%;
+    border-radius: 20px;
+  }
+  
+  #upperbod button {
+    position: fixed; 
+    right:10px;     
+    bottom: 10px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    border-radius: 7px;
+    color: #ccc;
+    width: 40px;
+    height: 40px;
+    z-index: 1000;   
+}
+  #shopby {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 60px;
+    margin-top: 50px;
+  }
+  
+  #shopby h2 {
+    font-size: 200%;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  #shopby img {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 50%;
+    border: 1px solid #333;
+  }
+  
+  #brands {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 60px;
+   
+  }
+  
+  #brands h2 {
+    font-size: 200%;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  #brands img {
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  #bestproducts {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 60px;
+  }
+  
+  #bestproducts h2 {
+    font-size: 200%;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
+    padding: 20px;
+
+    
+  }
+  
+  
+  .card-img-top {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+   
+  }
+  
+  .card-body {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .card-title {
+    font-size: 130%;
+    color: #333;
+
+  }
+  
+  
+  
+  .card .btn {
+    background-color:#f8d7da;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 100%;
+    border-radius: 5px;
+  }
+  
+ 
+
+  
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer h2 {
+    font-size: 200%;
+    color: #f8d7da;
+    font-weight: bold;
+
+
+}
+  
+   footer p {
+    font-size: 120%;
+   
+  }
+  
+  footer .loc {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  
+
+  footer .email {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+
+  footer .number {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+
+  footer i {
+    margin: 5px;
+    font-size: 130%;
+  }
+  
+  footer i:hover {
+    color: #f8d7da;
+  }
+
+  @media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center; 
+    }
+
+    nav img {
+        margin: 0 auto; 
+    }
+
+    .leftnav,
+    .rightnav {
+        justify-content: center;
+    }
+
+    .leftnav a,
+    .rightnav a {
+        font-size: 110%;
+    }
+
+    #upperbod p {
+        font-size: 150%;
+    }
+
+    #shopby h2,
+    #brands h2,
+    #bestproducts h2 {
+        font-size: 180%;
+    }
+
+    .card-container {
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center; 
+        align-items: center; 
+    }
+
+    .card-img-top {
+        height: 180px;
+    }
+
+    footer h2 {
+        font-size: 180%;
+    }
+}
+
+
+@media (max-width: 480px) {
+    nav {
+        padding: 5px;
+    }
+
+    .leftnav a,
+    .rightnav a {
+        font-size: 100%;
+    }
+
+    #upperbod p {
+        font-size: 130%;
+    }
+
+    #shopby h2,
+    #brands h2,
+    #bestproducts h2 {
+        font-size: 160%;
+    }
+
+    .card-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    footer h2 {
+        font-size: 160%;
+    }
+
+    footer p {
+        font-size: 100%;
+    }
+
+    footer i {
+        font-size: 120%;
+    }
+}
+
+ 
+    
+  
